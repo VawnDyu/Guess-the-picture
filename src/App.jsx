@@ -1,19 +1,19 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
-import correctSound from "/assets/sounds/correct.mp3";  // Add a correct sound file
-import wrongSound from "/assets/sounds/wrong.mp3";      // Add a wrong sound file
-import bgMusic from "/assets/sounds/background.mp3";  // Background music
+import correctSound from "/src/assets/sounds/correct.mp3";  // Add a correct sound file
+import wrongSound from "/src/assets/sounds/wrong.mp3";      // Add a wrong sound file
+import bgMusic from "/src/assets/sounds/background.mp3";  // Background music
 
 const images = [
-  {src: "/assets/img/apple.png", answer: "apple", hint: "It's a fruit"},
-  {src: "/assets/img/ball.png", answer: "ball", hint: "A round object which is used in sports and games"},
-  {src: "/assets/img/balloon.png", answer: "balloon", hint: "is a bag that is usually filled with gas"},
-  {src: "/assets/img/banana.jpg", answer: "banana", hint: "It's a fruit."},
-  {src: "/assets/img/bee.png", answer: "bee", hint: "Collect pollen and nectar from flowers to make honey."},
-  {src: "/assets/img/cat.png", answer: "cat", hint: "It's a common pet."},
-  {src: "/assets/img/cherry.jpg", answer: "cherry", hint: "It's a fruit."},
-  {src: "/assets/img/durian.jpg", answer: "durian", hint: "a large, spiky tropical fruit indigenous to Southeast Asia."},
-  {src: "/assets/img/pencil.png", answer: "pencil", hint: "Use for writing."}
+  {src: "src/assets/img/apple.png", answer: "apple", hint: "It's a fruit"},
+  {src: "src/assets/img/ball.png", answer: "ball", hint: "A round object which is used in sports and games"},
+  {src: "src/assets/img/balloon.png", answer: "balloon", hint: "is a bag that is usually filled with gas"},
+  {src: "src/assets/img/banana.jpg", answer: "banana", hint: "It's a fruit."},
+  {src: "src/assets/img/bee.png", answer: "bee", hint: "Collect pollen and nectar from flowers to make honey."},
+  {src: "src/assets/img/cat.png", answer: "cat", hint: "It's a common pet."},
+  {src: "src/assets/img/cherry.jpg", answer: "cherry", hint: "It's a fruit."},
+  {src: "src/assets/img/durian.jpg", answer: "durian", hint: "a large, spiky tropical fruit indigenous to Southeast Asia."},
+  {src: "src/assets/img/pencil.png", answer: "pencil", hint: "Use for writing."}
 ];
 
 function App() {
