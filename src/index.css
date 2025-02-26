@@ -1,0 +1,201 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url("/assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.title {
+  font-size: 3.6em;
+  line-height: 1.1;
+  color: #535bf2;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+.leaderboardTitle {
+  font-size: 2.1em;
+  color: #242424;
+}
+
+.description {
+  color: green;
+  font-size: 2.0em;
+}
+
+input[type="text"] {
+  padding: 5px;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #242424;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #242424;
+  width: 30%;
+}
+
+.hintMsg {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.Msg {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.startBtn {
+  border-radius: 5px;
+  padding: 0.5em 0.8em;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #5CE65C;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.startBtn:hover {
+  background-color: #4fc34f;
+}
+
+.submitBtn {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 50%;
+  padding: 0.5em 0.8em;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #5CE65C;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.submitBtn:hover {
+  background-color: #4fc34f;
+}
+
+.playerName {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.playerScore {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.playerTime {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.hintBtn {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 24%;
+  padding: 0.5em 0.8em;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #5c8ae6;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.hintBtn:hover {
+  background-color: #496fba;
+}
+
+.endBtn {
+  margin-left: 14px;
+  border-radius: 5px;
+  width: 24%;
+  padding: 0.5em 0.8em;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #e65c5c;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.endBtn:hover {
+  background-color: #c24c4c;
+}
+
+.leaderboardBtn {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0.5em 0.8em;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.leaderboardBtn:hover {
+  background-color: #353535;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
